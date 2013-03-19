@@ -1,0 +1,73 @@
+html, body { margin:0; padding:0; background:#e8e8e8; }
+body, td, th, select, option, input, textarea { font-family:Verdana,Arial,sans-serif; font-size:11pt; }
+
+h1 { margin:0 0 0 0px; padding:0; font-size:14pt; font-family:Georgia; text-align:center; text-transform:uppercase;}
+h2 { margin:0.5em 0 0.5em 0; padding:0.5em 0 0.5em 20px; font-size:12pt; font-family:Georgia; color:white; background:silver; text-shadow:1px 1px 2px gray; clear:both; -moz-border-radius:5px; border-radius:5px; -webkit-border-radius:5px; }
+h3 { margin:0; padding:0.5em 0 0.5em 0; font-size:11.5pt; font-family:Georgia; color:gray; clear:both; }
+h4 { margin-top:15px;padding:0; font-size:14pt; font-family:Arial; color:white; text-shadow:1px 1px 2px gray; clear:both; -moz-border-radius:5px; border-radius:5px; -webkit-border-radius:5px; }
+
+#container {position: absolute; width:495px; left:50%; margin-left:-495px; margin-top:70px; overflow:hidden; background:white; padding:0; }
+
+
+.tree, .tree input, .jstree-dnd-helper #vakata-contextmenu { font-size:10pt; font-family:Verdana;}
+
+#thebody .tree  {float:left; width:100%; margin:0; background:white; overflow:auto; }
+#thebody .hiddenItems  {display: block; line-height:0; height: 0; overflow: hidden; }
+
+#userTree  {padding-top: 10px;
+			font-size:10pt;
+  			-webkit-user-select: none;
+ 		 	-khtml-user-select: none;
+  			-moz-user-select: none;
+  			-o-user-select: none;
+  			user-select: none; 
+}
+
+ul.jstree { width:700px; margin:0px auto 15px auto; padding:0; }
+ul.jstree li { margin:0; padding:2px 0; }
+ul.jstree li a { color:#3B5998; text-decoration:underline; }
+
+#vakata-contextmenu.jstree-default-context, 
+#vakata-contextmenu.jstree-default-context li ul { white-space: nowrap; font-size:10pt; background:#f0f0f0; border:1px solid #979797; -moz-box-shadow: 1px 1px 2px #999; -webkit-box-shadow: 1px 1px 2px #999; box-shadow: 1px 1px 2px #999; }
+
+
+#ifr {  width:495px; 
+		position: absolute;
+		margin-top:70px;
+		left: 50%;
+		border: 0px solid black; 
+		background: #e8e8e8,
+		scrolling: no;
+		
+}
+
+#buttons {  position:absolute;
+			height:60px; 
+			width:990px; 
+			left:50%; 
+			margin-left:-495px; 
+			margin-top: 2px; 
+			background-color: #82C896; 
+			border: 2px solid black;  	
+}
+
+#expifr {  width:990px; 
+		position: absolute;
+		margin-top:70px;
+		left: 50%;
+		margin-left:-495px; 
+		height:90%;
+		border: 2px solid black; 
+		scrolling: no;
+}
+		
+#login {  width:990px; 
+		position: absolute;
+		margin-top:70px;
+		left: 50%;
+		margin-left:-495px; 
+		height:90%;
+		border: 2px solid black; 
+		scrolling: no;
+		background-color: #cbded0; 	
+}

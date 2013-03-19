@@ -1,0 +1,12 @@
+html, body { margin:0; padding:0; background:#cbded0; }
+body, td, th, select, option, input, textarea { font-family:Verdana,Arial,sans-serif; font-size:11pt; }
+
+h1 { margin:0 0 0 0px; padding:0; font-size:11pt; font-family:Georgia;}
+h2 { margin:0.5em 0 0.5em 0; padding:0; font-size:12pt; font-family:Georgia; color:white; text-align:center; background:silver; text-shadow:1px 1px 2px gray; clear:both; -moz-border-radius:5px; border-radius:5px; -webkit-border-radius:5px; }
+h3 { margin:0; padding:0.5em 0 0.5em 0; font-size:12pt; font-family:Georgia; color:white; clear:both; text-shadow:1px 1px 2px black; }
+h4 { margin:0 0 0 0px; padding:200px 0 0 0; font-size:14pt; font-family:Georgia; text-align:center;}
+
+body { padding:20px;}
+input[type="button"], input[type="submit"] { padding:1px;}
+input[type="text"][disabled] {background:  	rgb(208,208,208) ;}
+.optionsframe {border: 1px solid black; margin:0.5em 0.5em 0.5em 0; padding:0.5em 0.5em 0.5em 0.5em;}

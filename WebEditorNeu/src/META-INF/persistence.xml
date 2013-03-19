@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persistence xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+	version="2.0"
+	xmlns="http://java.sun.com/xml/ns/persistence">
+	
+	<persistence-unit name="webExperiment" transaction-type="RESOURCE_LOCAL">
+		<class>model.db.ExpAdmin</class>
+		<class>model.db.ExpEditor</class>
+		<class>model.db.Experiment</class>
+		<class>model.db.ExpItem</class>
+		<class>model.db.ExpProject</class>
+		<class>model.db.ExpScript</class>
+		<class>model.db.ExpScriptSection</class>
+		
+	<!--	<properties>
+            <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+ 	        <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://postgres.phonetik.uni-muenchen.de:5432/experimenteditor" />
+			<property name="javax.persistence.jdbc.user" value="webexperiment" />
+			<property name="javax.persistence.jdbc.password" value="!Wbxp11" /> 
+			<property name="eclipselink.ddl-generation" value="create-tables" />
+			<property name="eclipselink.ddl.generation.output-mode" value="both" />
+		</properties>-->
+		
+		<properties>
+			<property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+ 			<property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/Test" />
+			<property name="javax.persistence.jdbc.user" value="postgres" />
+			<property name="javax.persistence.jdbc.password" value="ZyLa19079" />
+			<property name="eclipselink.ddl-generation" value="none" />
+ 	<!--	<property name="eclipselink.ddl-generation" value="create-tables" />
+		<property name="eclipselink.ddl.generation.output-mode" value="both" /> -->
+		</properties>
+
+ 	</persistence-unit>
+</persistence>
